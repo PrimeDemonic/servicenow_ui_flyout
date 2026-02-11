@@ -92,7 +92,7 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
 - **Widget ID:** `flyout-settings` (Flyout Settings)
 - **Purpose:** Toggle / control flyout preferences that other widgets respect.
 - **Script Include:**
-  - `UIFlyoutPreferences` *(if not in this update set yet, add it to your scoped upload)*  
+  - `UIFlyoutPreferences` 
     Stores per-user preferences (last tab, summary field selections per table, etc.).
 
 - **Current preferences (recommended)**
@@ -137,7 +137,9 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
 2. Click the flyout icon in the header
 3. The flyout opens with the portal page embedded
 4. Use tabs to open Chat / Summary / Script / Settings
-5. (Optional) If Journal Admin Hub scope exists (`x_cros2_journal_0`), a Journal tab appears automatically ( Check my other repos if you want to embed this )
+5. (Optional) If Journal Admin Hub scope exists (`x_cros2_journal_0`), a Journal tab appears automatically. 
+See also: [ServiceNow Journal Admin Hub](https://github.com/PrimeDemonic/servicenow_journal_admin_hub)
+
 
 ---
 
@@ -165,6 +167,11 @@ Validate:
 - Confirm instance can reach OpenAI endpoints (egress/network)
 - Check the outbound HTTP log for request body + model values
 - Ensure you are using Responses schema correctly (and chaining with `previous_response_id` if desired)
+
+---
+
+## Related projects
+- [ServiceNow Journal Admin Hub](https://github.com/PrimeDemonic/servicenow_journal_admin_hub)
 
 ---
 
