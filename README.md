@@ -168,19 +168,6 @@ Validate:
 
 ---
 
-## Repo layout suggestion (GitHub)
-
-Recommended structure:
-
-- `update_sets/`
-  - `CF - UI Flyout Prototype.xml`
-- `docs/`
-  - `ARCHITECTURE.md` (optional)
-  - `SECURITY.md` (optional)
-- `README.md`
-
----
-
 ## License / attribution
 
 MIT
