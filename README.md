@@ -97,7 +97,7 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
   - Method: `Responses`
 
 ### System properties (configure before use)
-- `ui_flyout_openai.api_key` **(REMOVE before publishing to GitHub)**
+- `ui_flyout_openai.api_key`
 - `ui_flyout_openai.completions_model` (default: `gpt-4o-mini`)
 - `ui_flyout_openai.responses_model` (default: `gpt-4o-mini`)
 
@@ -122,7 +122,7 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
 2. Click the flyout icon in the header
 3. The flyout opens with the portal page embedded
 4. Use tabs to open Chat / Summary / Script / Settings
-5. (Optional) If Journal Admin Hub scope exists (`x_cros2_journal_0`), a Journal tab appears automatically
+5. (Optional) If Journal Admin Hub scope exists (`x_cros2_journal_0`), a Journal tab appears automatically ( Check my other repos if you want to embed this )
 
 ---
 
@@ -168,4 +168,4 @@ Recommended structure:
 
 ## License / attribution
 
-Internal prototype. Add your chosen license before publishing publicly.
+MIT
