@@ -19,6 +19,9 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
   - Settings
   - (Optional) Journal Admin Hub tab if `x_cros2_journal_0` exists on the instance
 
+![Flyout Action Center](docs/images/flyoutIcon.png)
+
+![Flyout Action Center](docs/images/flyoutOpen.png)
 ---
 
 ## Included components
@@ -43,6 +46,9 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
 ## Embedded widgets (and their Script Includes)
 
 ### 1) Chat
+
+![Flyout Action Center](docs/images/chat.png)
+
 - **Widget ID:** `flyout-chat` (Flyout Chat)
 - **Purpose:** One-session chat using OpenAI Responses API with optional chaining via `previous_response_id`.
 - **Script Includes:**
@@ -58,6 +64,9 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
   - Markdown rendering can be enabled in the widget using `marked` + `DOMPurify` JS Includes.
 
 ### 2) Summary
+
+![Flyout Action Center](docs/images/summary.png)
+
 - **Widget ID:** `flyout-summary` (Flyout Summary)
 - **Purpose:** Select record fields (including inherited fields) and generate a summarised output.
 - **Script Include:**
@@ -65,6 +74,9 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
     Reads record + audit history (ACL-respecting patterns where applicable), builds field metadata, and generates a summary via LLM.
 
 ### 3) Script
+
+![Flyout Action Center](docs/images/script.png)
+
 - **Widget ID:** `flyout-script` (Flyout Script)
 - **Purpose:** Script assistance / generation surface (patterned similarly to other flyout apps).
 - **Script Include:**
@@ -74,6 +86,9 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
     LLM call helper used by the script surface.
 
 ### 4) Settings
+
+![Flyout Action Center](docs/images/settings.png)
+
 - **Widget ID:** `flyout-settings` (Flyout Settings)
 - **Purpose:** Toggle / control flyout preferences that other widgets respect.
 - **Script Include:**
