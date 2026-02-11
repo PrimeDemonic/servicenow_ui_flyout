@@ -34,8 +34,8 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
 - **Portal Page:** `flyout_example`  
   Entry point for the flyout iframe (example page).
 
-- **Widget:** `flyout-example`  
-  Page-level wrapper widget used by the portal page.
+- **Widget:** `flyout-action-center`  
+  The primary widget that embeds other widgets and renders them in the iframe of the flyout.
 
 ### Action Center
 - **Widget:** `flyout-action-center`  
