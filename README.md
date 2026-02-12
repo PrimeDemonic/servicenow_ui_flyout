@@ -56,8 +56,6 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
     Low-level REST wrapper for “Flyout - OpenAI” REST Message (Completions + Responses).
   - `UIFlyoutLLMClient`  
     Higher-level “chat-like” helpers for first / next turn patterns (where implemented).
-  - `UIFlyoutChatService` *(prototype / optional)*  
-    If unused in your current build, you can remove it.
 
 - **Notes:**
   - Chat history is not persisted by default (client-only state).
@@ -95,7 +93,7 @@ A lightweight “Action Center” flyout for the ServiceNow backend UI (Polaris 
   - `UIFlyoutPreferences` 
     Stores per-user preferences (last tab, summary field selections per table, etc.).
 
-- **Current preferences (recommended)**
+- **Current preferences**
   - Remember last tab (`ui_flyout.pref.remember_last_tab`)
   - Default tab (`ui_flyout.pref.default_tab`)
   - Remember Summary selected fields (`ui_flyout.pref.summary_fields`)
